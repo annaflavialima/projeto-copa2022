@@ -163,6 +163,7 @@ h1, h2{
 }
 
 .nomeGrupo{
+    text-align: center;
     color: #591233;
     font-weight: bold;
     border-bottom: 1px solid #26051B;
