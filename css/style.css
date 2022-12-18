@@ -1,0 +1,244 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.primary-bg-color {
+    background-color: #E7E7D7;
+    color: #26051B;
+}
+
+.secondary-bg-color{
+    background-color: #26051B;
+}
+
+i.bi{
+    color: #E7E7D7;
+    font-size: 1.2rem;
+}
+
+header.barraSuperior {
+    background-color: #591233;
+}
+
+.logos {
+    height: 80px;
+}
+
+#search-form input {
+    background-color: transparent;
+    border: none;
+}
+
+#search-form input:focus{
+    box-shadow: none;
+    color: #E7E7D7;
+}
+
+#search-form input::placeholder{
+    color: #E7E7D7;
+}
+
+#search-form{
+    width: 50%;
+    border: 2px solid #E7E7D7;
+    border-radius: 3px;
+    margin: 15px;
+    padding: 0px 15px;
+}
+
+button.search:hover {
+    background-color: #26051B;
+    color: #E7E7D7;
+}
+
+#bottom-navbar a{
+    color: #E7E7D7;
+}
+
+.sobreCopa{
+    text-align: justify;
+}
+
+.imgCatar{
+    border-radius: 2rem;
+    padding: 0px;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.562);
+}
+
+h1, h2{
+    color: #731638;
+}
+
+.copa2022{
+    height: 250px;
+}
+
+#estadios{
+    background-color: #26051B;
+}
+
+#estadios-banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #591233;
+}
+
+#estadios h2{
+    color: #E7E7D7;
+}
+
+.cardEstadios, 
+.cardEstadios ul li{
+    background-color: transparent;
+    color: #E7E7D7;
+}
+
+.cardEstadios img{
+    height: 160px;
+}
+
+.cardEstadios ul li{
+    border: none;
+    border-bottom: 1px solid #E7E7D7;
+}
+
+#estadios .col-md-4{
+    padding: 0;
+}
+
+#estadios .card img{   
+    margin: 2em auto;
+}
+
+#banners-container{
+    padding: 0;
+}
+
+.carousel-caption p{
+    font-size: 0.8em;
+}
+
+@media (min-width: 768px){
+    #slider .carousel-item, #slider img{
+        height: 600px;
+    }
+
+    .carousel-caption{
+        left: 23%;
+        right: 23%;
+    }
+}
+
+#tabelaCopa h2,
+#tabelaCopa h5{
+    color: #E7E7D7;
+}
+
+#copy-container{
+    text-align: center;
+    padding: 30px;
+}
+
+#copy-container a{
+    color: #a52151;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+#copy-container a:hover{
+    color: #26051B;
+}
+
+.mini-card-1{
+    background-color: #E7E7D7;
+    border-radius: 15px;    
+    width: 15em;
+}
+
+.nomeGrupo{
+    color: #591233;
+    font-weight: bold;
+    border-bottom: 1px solid #26051B;
+}
+
+.mini-card-1 li,
+.mini-card-2 li,
+.mini-card-sm li,
+.mini-card-sm-quartas li{
+    background-color: transparent;
+    border: none;
+    text-align: justify;
+}
+
+img.bandeiras{
+    width: 4em;
+    box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.459);
+    border-radius: 5px;
+}
+
+.mini-card-1 .nomePais,
+.mini-card-2 .chaveamento{
+    color: #731638;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.mini-card-2{    
+    background-color: #E7E7D7;
+    border-radius: 15px; 
+    width: 33em;
+}
+
+i.chave{
+    color: #26051B;
+    font-size: 1.5em;
+}
+
+.dataJogo{
+    color: #731638;
+    font-size: 1.1em;
+    font-weight: bold;
+    border-bottom: 1px solid #26051B;
+}
+
+.jogoChave{
+    color: #731638;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+.mini-card-sm,
+.mini-card-sm-quartas{
+    background-color: #E7E7D7;
+    border-radius: 15px;    
+    width: 20em;
+}
+
+.mini-card-sm-quartas{    
+    width: 17em;
+}
+
+.jogoQuartas{
+    color: #731638;
+    font-weight: bold;
+}
+
+.mini-card-final{
+    background-color: #E7E7D7;
+    border-radius: 15px;
+}
+
+.mini-card-final li{
+    background-color: transparent;
+    border: none;
+}
+
+.alinhando{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
